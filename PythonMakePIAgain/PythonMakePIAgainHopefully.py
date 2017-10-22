@@ -72,6 +72,7 @@ def decryptagain(encryptedmsg):
     print ("Decrypt'd Msg: ", newmsg)
 
 def decrypttitle(encryptedmsg):
+    http://www.pythonchallenge.com/pc/def/map.html
     from string import maketrans
 
     outtab = "koe"
@@ -84,9 +85,17 @@ def decrypttitle(encryptedmsg):
     #encryptedmsg2.translate()
 
 
+def decypt2(intab,outtab)
+    from string import maketrans
+
+
+
 if __name__ == "__main__":
     ## test_py();
-    decryptstr = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj. "
-    otherstring = "everybody thinks twice before solving this."
-    decryptagain(decryptstr)
+    #decryptstr = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj. "
+    #otherstring = "everybody thinks twice before solving this."
+    #decryptagain(decryptstr
     # decrypt(decryptstr)
+    topline = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr"
+    bottomline = "ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
+    decrypt2(topline,bottomline)
